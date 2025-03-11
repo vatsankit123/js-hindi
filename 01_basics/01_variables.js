@@ -11,8 +11,14 @@ accountpass="21212"            // this is also allowed
 
 accountcity="patna"
 
+let accountstate  // agr javascript ke andr hum koi varibale define krke chod dein or usme koi value na dein to javascript usme undefined store karti hai
+
 // console.log(accountcity);
 
 // bar bar console.log likhne se behtar hai ham console.table ka use karein
 
-console.table([accountEmail,accountId,accountpass,accountcity])  // sara data tabular form me dikhega
+/*
+prefer not to use var because of issue in block and function scope
+*/
+
+console.table([accountEmail,accountId,accountpass,accountcity,accountstate])  // sara data tabular form me dikhega
