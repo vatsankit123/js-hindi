@@ -31,3 +31,12 @@ console.log(anotherstr)
 const newstring1="  ankit   "
 console.log(newstring1)
 console.log(newstring1.trim());   // will trim space (go to mdn documentation for detail explanation)
+
+const url = "https://github.com/vatsankit123/js-hindi/blob/main/01_basics/06_strings.js"
+
+console.log(url.replace('01','-'))  // this will replace 01 to - in the url
+
+// hum string method se kuch question bhi puch sakte hain jaise.
+
+console.log(url.includes('vatsankit123'))  // return true if the string is available in url else return false
+
