@@ -11,6 +11,8 @@
 // let x= "ankit" ; it is a string
 //let x= true ; it is bool
 
+/*
+
 const score=100
 const scoreval=100.3
 const isloggedin= false
@@ -56,3 +58,34 @@ console.log(typeof myfunction) // function
 
 // for detail go to this link 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// ++++++++++++++++++++ MEMORIES +++++++++++++++++++++++++++++
+
+// stack (primitive) -  jo bhi variable declare karte hain stack memory me usme hame uska ek copy milta hai 
+// heap (non-primitive) - isme reference milta hai jo bhi change karenge isme main memory me reflect hoga
+
+*/
+
+let myname = "ankit"
+
+let anothername = myname  // these data will go under stack
+anothername = "jaisriram"
+
+console.log(myname)
+console.log(anothername)
+
+// non-primitive datatypes
+
+let userone = {
+    email: "vatssaankit@gmail.com" , // these data will go under stack
+    upi:   "ankit@axl"
+}
+
+let usertwo=userone
+
+usertwo.email = "ankit@gmail.com"  // change by reference
+
+console.log(userone.email);
+console.log(usertwo.email);
