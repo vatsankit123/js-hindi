@@ -71,3 +71,23 @@ console.log(Object.entries(tinderuser)) ;  //will give all the entries that pres
 
 console.log(tinderuser.hasOwnProperty('isloggedin'));  // will return true if the property present inside the object
 
+
+
+// **************** more about object  ******************
+
+
+const course = {
+    coursename:"js in hidi",
+    price:"999",
+    courseinstructor:"hitesh"
+}
+
+// another method to fetch data from object
+
+const {courseinstructor:instructor}=course  // aliasing or destructuring object
+
+console.log(instructor);  // we can call instructor now
+
+// or we can simply do
+
+console.log(course.courseinstructor)
