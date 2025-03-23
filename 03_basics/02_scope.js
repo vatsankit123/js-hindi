@@ -64,7 +64,7 @@ function addone(num){
 
 // but in this way this way of declaring function if we try to access the before function initialization this will casue error run to see the dirrenece
 
-// declaring in diffrent way :- it may cause some error
+// declaring in diffrent way :- it may cause some error this is called hosting
 
 
 console.log(addtwo(5))
